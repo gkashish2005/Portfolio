@@ -1,0 +1,158 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+background:#0f172a;
+color:#e2e8f0;
+font-family:'Share Tech Mono', monospace;
+line-height:1.6;
+}
+
+header{
+background:#020617;
+border-bottom:1px solid #00ff9c;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px;
+}
+
+.logo{
+color:#00ff9c;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+}
+
+nav ul li{
+margin-left:20px;
+}
+
+nav a{
+text-decoration:none;
+color:#e2e8f0;
+}
+
+nav a:hover{
+color:#00ff9c;
+}
+
+
+
+.hero{
+height:90vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+
+.hero h2{
+color:#00ff9c;
+font-size:40px;
+margin-bottom:10px;
+}
+.profile-pic{
+width:180px;
+height:180px;
+border-radius:50%;
+object-fit:cover;
+border:3px solid #00ff9c;
+box-shadow:0 0 20px #00ff9c;
+margin-bottom:20px;
+}
+.btn{
+display:inline-block;
+margin-top:20px;
+padding:12px 25px;
+background:#00ff9c;
+color:black;
+font-weight:bold;
+text-decoration:none;
+border-radius:5px;
+box-shadow:0 0 10px #00ff9c;
+}
+
+.btn:hover{
+background:#38bdf8;
+box-shadow:0 0 15px #38bdf8;
+}
+
+button{
+margin-top:20px;
+padding:10px 20px;
+border:none;
+background:#00ff9c;
+color:black;
+font-weight:bold;
+cursor:pointer;
+box-shadow:0 0 10px #00ff9c;
+}
+
+
+
+section{
+padding:60px 20px;
+text-align:center;
+}
+
+h2{
+margin-bottom:30px;
+color:#38bdf8;
+}
+
+
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+max-width:800px;
+margin:auto;
+}
+
+.card{
+padding:20px;
+border:1px solid #00ff9c;
+box-shadow:0 0 5px #00ff9c;
+}
+
+
+
+.projects{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+}
+
+.project-card{
+border:1px solid #38bdf8;
+padding:20px;
+width:250px;
+}
+
+
+
+.cert-list{
+list-style:none;
+}
+
+
+
+footer{
+margin-top:40px;
+padding:20px;
+text-align:center;
+background:#020617;
+border-top:1px solid #00ff9c;
+}
